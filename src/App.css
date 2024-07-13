@@ -1,0 +1,50 @@
+.center{
+    background-color: rgb(252, 243, 232);
+    width:500px;
+    margin:10vw 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+input{
+}
+.input .add{
+    height:30px;
+    width:100px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+input{
+    height:30px;
+    width:250px;
+    border-radius: 10px;
+}
+.list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.tasks{
+    
+    width:400px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content:space-between;
+    align-items: center;
+    /* border:solid grey 1px; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    overflow:unset
+}
+.tasks button{
+    height: 30px;
+    width:80px;
+    border-radius: 10px;
+}
+button{
+   background-color: rgb(250, 103, 50);
+}
